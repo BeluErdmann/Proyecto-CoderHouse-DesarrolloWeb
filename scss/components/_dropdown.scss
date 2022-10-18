@@ -70,5 +70,15 @@
         margin-bottom: 20px;
         margin-top: 20px;
         z-index: 0;
+
+        select {
+            background-color: #000000;
+            color: $text-color;
+            border: solid;
+            border-color: #ffffffb7;
+            border-radius: 50px;
+            border-width: 2px;
+            padding: 4px;
+        }
     }
 }
