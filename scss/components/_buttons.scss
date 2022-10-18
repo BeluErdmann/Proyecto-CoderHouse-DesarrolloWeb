@@ -19,11 +19,6 @@
     }
 }
 
-@mixin dflex ($justify){
-    display: flex;
-    justify-content: $justify;
-}
-
 @media (min-width:1400px) {
     .container__i {
         @include dflex(center)

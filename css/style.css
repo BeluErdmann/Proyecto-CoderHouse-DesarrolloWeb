@@ -1,3 +1,9 @@
+.title, .title__products, .featured__title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +12,6 @@
 
 body {
   background-color: #000000;
-  color: #ffffff;
 }
 body ::selection {
   background: #ff0088;
@@ -32,6 +37,7 @@ hr {
 
 body {
   font-family: rubik, sans-serif;
+  color: #ffffff;
 }
 
 .featured__title {
@@ -44,12 +50,6 @@ body {
 
 .title {
   font-family: "cormorant garamond", serif;
-}
-
-.title, .title__products, .featured__title {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 600;
 }
 
 .featured__title {
@@ -415,7 +415,6 @@ header {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
-    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 650px;
@@ -428,7 +427,6 @@ header {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
-    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 650px;
@@ -439,10 +437,10 @@ header {
   }
   .form__text textarea {
     font-family: rubik;
+    resize: none;
     border: solid;
     border-width: 2px;
     border-radius: 2em;
-    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 650px;
@@ -459,7 +457,6 @@ header {
     border-width: 2px;
     border-radius: 2em;
     background-color: #ff0088;
-    color: #ffffff;
     width: 180px;
     height: 50px;
     margin-bottom: 40px;
@@ -481,7 +478,6 @@ header {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
-    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 600px;
@@ -494,7 +490,6 @@ header {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
-    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 600px;
@@ -508,7 +503,6 @@ header {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
-    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 600px;
@@ -529,7 +523,6 @@ header {
     border-width: 2px;
     border-radius: 2em;
     background-color: #ff0088;
-    color: #ffffff;
     width: 130px;
     height: 40px;
     margin-bottom: 40px;
@@ -550,7 +543,6 @@ header {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
-    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 600px;
@@ -563,7 +555,6 @@ header {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
-    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 600px;
@@ -577,7 +568,6 @@ header {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
-    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 600px;
@@ -598,7 +588,6 @@ header {
     border-width: 2px;
     border-radius: 2em;
     background-color: #ff0088;
-    color: #ffffff;
     width: 130px;
     height: 40px;
     margin-bottom: 40px;
@@ -623,7 +612,6 @@ header {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
-    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 300px;
@@ -636,7 +624,6 @@ header {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
-    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 300px;
@@ -650,7 +637,6 @@ header {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
-    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 300px;
@@ -671,7 +657,6 @@ header {
     border-width: 2px;
     border-radius: 2em;
     background-color: #ff0088;
-    color: #ffffff;
     width: 80px;
     height: 30px;
     margin-bottom: 40px;
