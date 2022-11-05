@@ -12,12 +12,12 @@
         width: 650px;
         margin-top: 50px;
         margin-left: 33px;
-        font-family: rubik;
 
         &__name input {
             border: solid;
             border-width: 2px;
             border-radius: 2em;
+            color: $text-color;
             background-color: #000000;
             border-color: #ffffffb7;
             width: 650px;
@@ -31,6 +31,7 @@
             border: solid;
             border-width: 2px;
             border-radius: 2em;
+            color: $text-color;
             background-color: #000000;
             border-color: #ffffffb7;
             width: 650px;
@@ -41,11 +42,11 @@
         }
 
         &__text textarea {
-            font-family: rubik;
             resize: none;
             border: solid;
             border-width: 2px;
             border-radius: 2em;
+            color: $text-color;
             background-color: #000000;
             border-color: #ffffffb7;
             width: 650px;
@@ -53,13 +54,15 @@
             padding: 15px;
             margin-top: 20px;
             margin-bottom: 20px;
+            resize: none;
         }
 
         &__submit input {
             font-size: 1rem;
             font-weight: 600;
             border: solid;
-            border-color: $text-color;
+            color: $text-color;
+            border-color: #ffffffb7;
             border-width: 2px;
             border-radius: 2em;
             background-color: $main-color;
@@ -74,6 +77,11 @@
 @media (min-width:1024px) and (max-width:1399px) {
     form {
         text-align: center;
+
+        label {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
     }
 
     .form {
@@ -81,65 +89,62 @@
         padding: 30px;
         margin: auto;
         margin-top: 50px;
-        font-family: rubik;
-    }
 
-    .form__name input {
-        border: solid;
-        border-width: 2px;
-        border-radius: 2em;
-        background-color: #000000;
-        border-color: #ffffffb7;
-        width: 600px;
-        height: 50px;
-        padding: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+        &__name input {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 600px;
+            height: 50px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
 
-    .form__mail input {
-        border: solid;
-        border-width: 2px;
-        border-radius: 2em;
-        background-color: #000000;
-        border-color: #ffffffb7;
-        width: 600px;
-        height: 50px;
-        padding: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+        &__mail input {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 600px;
+            height: 50px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
 
-    .form__text textarea {
-        font-family: rubik;
-        border: solid;
-        border-width: 2px;
-        border-radius: 2em;
-        background-color: #000000;
-        border-color: #ffffffb7;
-        width: 600px;
-        height: 200px;
-        padding: 15px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+        &__text textarea {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 600px;
+            height: 200px;
+            padding: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            resize: none;
+        }
 
-    form label {
-        font-size: 1.2rem;
-        font-weight: 600;
-    }
-
-    .form__submit input {
-        font-size: 1rem;
-        font-weight: 600;
-        border: solid;
-        border-color: #ffffff;
-        border-width: 2px;
-        border-radius: 2em;
-        background-color: $main-color;
-        width: 130px;
-        height: 40px;
-        margin-bottom: 40px;
+        &__submit input {
+            font-size: 1rem;
+            font-weight: 600;
+            border: solid;
+            border-color: $text-color;
+            border-width: 2px;
+            border-radius: 2em;
+            background-color: $main-color;
+            width: 130px;
+            height: 40px;
+            margin-bottom: 40px;
+        }
     }
 
 }
@@ -147,6 +152,11 @@
 @media (min-width:768px) and (max-width:1023px) {
     form {
         text-align: center;
+
+        label {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
     }
 
     .form {
@@ -154,141 +164,139 @@
         padding: 30px;
         margin: auto;
         margin-top: 50px;
-        font-family: rubik;
-    }
 
-    .form__name input {
-        border: solid;
-        border-width: 2px;
-        border-radius: 2em;
-        background-color: #000000;
-        border-color: #ffffffb7;
-        width: 600px;
-        height: 50px;
-        padding: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
 
-    .form__mail input {
-        border: solid;
-        border-width: 2px;
-        border-radius: 2em;
-        background-color: #000000;
-        border-color: #ffffffb7;
-        width: 600px;
-        height: 50px;
-        padding: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+        &__name input {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 600px;
+            height: 50px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
 
-    .form__text textarea {
-        font-family: rubik;
-        border: solid;
-        border-width: 2px;
-        border-radius: 2em;
-        background-color: #000000;
-        border-color: #ffffffb7;
-        width: 600px;
-        height: 200px;
-        padding: 15px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+        &__mail input {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 600px;
+            height: 50px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
 
-    form label {
-        font-size: 1.2rem;
-        font-weight: 600;
-    }
+        &__text textarea {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 600px;
+            height: 200px;
+            padding: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            resize: none;
+        }
 
-    .form__submit input {
-        font-size: 1rem;
-        font-weight: 600;
-        border: solid;
-        border-color: #ffffffb7;
-        border-width: 2px;
-        border-radius: 2em;
-        background-color: $main-color;
-        width: 130px;
-        height: 40px;
-        margin-bottom: 40px;
+        &__submit input {
+            font-size: 1rem;
+            font-weight: 600;
+            border: solid;
+            color: $text-color;
+            border-color: #ffffffb7;
+            border-width: 2px;
+            border-radius: 2em;
+            background-color: $main-color;
+            width: 130px;
+            height: 40px;
+            margin-bottom: 40px;
+        }
     }
 }
 
 @media screen and (max-width: 767px) {
     form {
         text-align: center;
-    }
 
-    form label {
-        display: block;
-        font-size: 1.2rem;
-        font-weight: 600;
+        label {
+            display: block;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
     }
 
     .form {
         padding: 30px;
         margin: auto;
         margin-top: 50px;
-        font-family: rubik;
-    }
 
-    .form__name input {
-        border: solid;
-        border-width: 2px;
-        border-radius: 2em;
-        background-color: #000000;
-        border-color: #ffffffb7;
-        width: 300px;
-        height: 40px;
-        padding: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
 
-    .form__mail input {
-        border: solid;
-        border-width: 2px;
-        border-radius: 2em;
-        background-color: #000000;
-        border-color: #ffffffb7;
-        width: 300px;
-        height: 40px;
-        padding: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+        &__name input {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 300px;
+            height: 40px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
 
-    .form__text textarea {
-        font-family: rubik;
-        border: solid;
-        border-width: 2px;
-        border-radius: 2em;
-        background-color: #000000;
-        border-color: #ffffffb7;
-        width: 300px;
-        height: 100px;
-        padding: 15px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+        &__mail input {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 300px;
+            height: 40px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
 
-    form label {
-        font-size: 1.2rem;
-        font-weight: 600;
-    }
+        &__text textarea {
+            border: solid;
+            border-width: 2px;
+            border-radius: 2em;
+            color: $text-color;
+            background-color: #000000;
+            border-color: #ffffffb7;
+            width: 300px;
+            height: 100px;
+            padding: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            resize: none;
+        }
 
-    .form__submit input {
-        font-size: 1rem;
-        font-weight: 600;
-        border: solid;
-        border-color: #ffffffb7;
-        border-width: 2px;
-        border-radius: 2em;
-        background-color: $main-color;
-        width: 80px;
-        height: 30px;
-        margin-bottom: 40px;
+        &__submit input {
+            font-size: 1rem;
+            font-weight: 600;
+            border: solid;
+            color: $text-color;
+            border-color: #ffffffb7;
+            border-width: 2px;
+            border-radius: 2em;
+            background-color: $main-color;
+            width: 80px;
+            height: 30px;
+            margin-bottom: 40px;
+        }
     }
 }

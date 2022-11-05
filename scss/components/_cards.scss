@@ -6,11 +6,11 @@
         cursor: pointer;
         transition: 0.5s;
 
-        &:hover{
+        &:hover {
             transform: scale(1.22);
             transition: 0.5s;
         }
-    } 
+    }
 }
 
 @media (min-width:1024px) and (max-width:1399px) {

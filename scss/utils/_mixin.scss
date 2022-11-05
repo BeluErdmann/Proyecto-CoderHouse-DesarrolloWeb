@@ -1,4 +1,4 @@
-@mixin dflex ($justify){
+@mixin dflex ($justify) {
     display: flex;
     justify-content: $justify;
 }

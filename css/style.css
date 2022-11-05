@@ -12,6 +12,7 @@
 
 body {
   background-color: #000000;
+  color: #ffffff;
 }
 body ::selection {
   background: #ff0088;
@@ -36,6 +37,11 @@ hr {
 }
 
 body {
+  font-family: rubik, sans-serif;
+  color: #ffffff;
+}
+
+.typography {
   font-family: rubik, sans-serif;
   color: #ffffff;
 }
@@ -70,12 +76,10 @@ body {
   .container__cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: ".card .card .card";
   }
   .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: "i hr";
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -92,12 +96,10 @@ body {
   .container__cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: ".card .card .card";
   }
   .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: "i hr";
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -114,12 +116,10 @@ body {
   .container__cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: ".card .card .card";
   }
   .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: "i hr";
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -136,7 +136,6 @@ body {
   .icons {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: "i hr";
     justify-content: center;
     align-items: center;
     margin-top: 50px;
@@ -172,15 +171,15 @@ body {
   align-items: center;
 }
 .nav__logo {
-  width: 3.5em;
+  width: 56px;
 }
 .nav__img {
-  width: 2.5em;
+  width: 40px;
 }
 .nav__menu {
   display: grid;
   grid-auto-flow: column;
-  gap: 3em;
+  gap: 48px;
 }
 .nav__item {
   text-decoration: none;
@@ -409,12 +408,12 @@ header {
     width: 650px;
     margin-top: 50px;
     margin-left: 33px;
-    font-family: rubik;
   }
   .form__name input {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
+    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 650px;
@@ -427,6 +426,7 @@ header {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
+    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 650px;
@@ -436,11 +436,11 @@ header {
     margin-bottom: 20px;
   }
   .form__text textarea {
-    font-family: rubik;
     resize: none;
     border: solid;
     border-width: 2px;
     border-radius: 2em;
+    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 650px;
@@ -448,12 +448,14 @@ header {
     padding: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
+    resize: none;
   }
   .form__submit input {
     font-size: 1rem;
     font-weight: 600;
     border: solid;
-    border-color: #ffffff;
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.7176470588);
     border-width: 2px;
     border-radius: 2em;
     background-color: #ff0088;
@@ -467,17 +469,21 @@ header {
   form {
     text-align: center;
   }
+  form label {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
   .form {
     width: 700px;
     padding: 30px;
     margin: auto;
     margin-top: 50px;
-    font-family: rubik;
   }
   .form__name input {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
+    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 600px;
@@ -490,6 +496,7 @@ header {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
+    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 600px;
@@ -499,10 +506,10 @@ header {
     margin-bottom: 20px;
   }
   .form__text textarea {
-    font-family: rubik;
     border: solid;
     border-width: 2px;
     border-radius: 2em;
+    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 600px;
@@ -510,10 +517,7 @@ header {
     padding: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-  form label {
-    font-size: 1.2rem;
-    font-weight: 600;
+    resize: none;
   }
   .form__submit input {
     font-size: 1rem;
@@ -532,17 +536,21 @@ header {
   form {
     text-align: center;
   }
+  form label {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
   .form {
     width: 700px;
     padding: 30px;
     margin: auto;
     margin-top: 50px;
-    font-family: rubik;
   }
   .form__name input {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
+    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 600px;
@@ -555,6 +563,7 @@ header {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
+    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 600px;
@@ -564,10 +573,10 @@ header {
     margin-bottom: 20px;
   }
   .form__text textarea {
-    font-family: rubik;
     border: solid;
     border-width: 2px;
     border-radius: 2em;
+    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 600px;
@@ -575,15 +584,13 @@ header {
     padding: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-  form label {
-    font-size: 1.2rem;
-    font-weight: 600;
+    resize: none;
   }
   .form__submit input {
     font-size: 1rem;
     font-weight: 600;
     border: solid;
+    color: #ffffff;
     border-color: rgba(255, 255, 255, 0.7176470588);
     border-width: 2px;
     border-radius: 2em;
@@ -606,12 +613,12 @@ header {
     padding: 30px;
     margin: auto;
     margin-top: 50px;
-    font-family: rubik;
   }
   .form__name input {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
+    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 300px;
@@ -624,6 +631,7 @@ header {
     border: solid;
     border-width: 2px;
     border-radius: 2em;
+    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 300px;
@@ -633,10 +641,10 @@ header {
     margin-bottom: 20px;
   }
   .form__text textarea {
-    font-family: rubik;
     border: solid;
     border-width: 2px;
     border-radius: 2em;
+    color: #ffffff;
     background-color: #000000;
     border-color: rgba(255, 255, 255, 0.7176470588);
     width: 300px;
@@ -644,15 +652,13 @@ header {
     padding: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-  form label {
-    font-size: 1.2rem;
-    font-weight: 600;
+    resize: none;
   }
   .form__submit input {
     font-size: 1rem;
     font-weight: 600;
     border: solid;
+    color: #ffffff;
     border-color: rgba(255, 255, 255, 0.7176470588);
     border-width: 2px;
     border-radius: 2em;
@@ -872,7 +878,7 @@ header {
     margin-top: 20px;
     padding-right: 20px;
   }
-  .icons h3 {
+  .icons h2 {
     font-weight: 400;
     margin-top: 20px;
     font-size: 1.5em;
@@ -892,7 +898,7 @@ header {
     margin-top: 20px;
     padding-right: 20px;
   }
-  .icons h3 {
+  .icons h2 {
     font-weight: 400;
     margin-top: 20px;
     font-size: 1em;
@@ -912,7 +918,7 @@ header {
     margin-top: 20px;
     padding-right: 20px;
   }
-  .icons h3 {
+  .icons h2 {
     font-weight: 400;
     margin-top: 20px;
     font-size: 1em;
@@ -932,7 +938,7 @@ header {
     margin-top: 20px;
     padding-right: 20px;
   }
-  .icons h3 {
+  .icons h2 {
     font-weight: 400;
     margin-top: 20px;
     font-size: 1em;
@@ -947,7 +953,7 @@ header {
     margin-top: 20px;
     cursor: pointer;
   }
-  .container__products h3 {
+  .container__products h2 {
     text-align: center;
     margin-bottom: 10px;
     margin-top: 20px;
@@ -967,7 +973,7 @@ header {
     margin-bottom: 10px;
     margin-top: 20px;
   }
-  .container__products h3 {
+  .container__products h2 {
     text-align: center;
     margin-bottom: 10px;
     margin-top: 20px;
@@ -986,7 +992,7 @@ header {
     margin-bottom: 10px;
     margin-top: 20px;
   }
-  .container__products h3 {
+  .container__products h2 {
     text-align: center;
     margin-bottom: 10px;
     margin-top: 20px;
@@ -1005,7 +1011,7 @@ header {
     margin-bottom: 10px;
     margin-top: 20px;
   }
-  .container__products h3 {
+  .container__products h2 {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 25px;
